@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-sw720dp-port/dimens.xml -->
+    <eat-comment/>
+    <dimen name="cling_text_block_offset_x">80dp</dimen>
+    <dimen name="cling_text_block_offset_y">160dp</dimen>
+    <dimen name="scroll_zone">40dp</dimen>
+    <dimen name="workspace_page_spacing">24dp</dimen>
+    <integer name="apps_customize_cling_focused_x">2</integer>
+    <integer name="apps_customize_cling_focused_y">2</integer>
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-sw720dp-port/styles.xml -->
+    <eat-comment/>
+    <style name="TabIndicator.AppsCustomize">
+        <item name="android:maxWidth">180dp</item>
+    </style>
+</resources>

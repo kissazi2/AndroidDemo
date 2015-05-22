@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-sw340dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="drop_target_drag_padding">20dp</dimen>
+</resources>

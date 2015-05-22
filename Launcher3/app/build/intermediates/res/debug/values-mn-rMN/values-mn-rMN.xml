@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-mn-rMN/strings.xml -->
+    <eat-comment/>
+    <plurals name="number_of_items_selected">
+    <item msgid="7464587177007785408" quantity="zero">"%1$d сонгогдсон"</item>
+    <item msgid="142482526010824029" quantity="one">"%1$d сонгогдсон"</item>
+    <item msgid="1418352074806573570" quantity="other">"%1$d сонгогдсон"</item>
+  </plurals>
+    <string msgid="2603132375383800483" name="accessibility_all_apps_button">"Апп"</string>
+    <string msgid="6466114477993744621" name="accessibility_delete_button">"Устгах"</string>
+    <string msgid="1628520399424565142" name="accessibility_search_button">"Хайх"</string>
+    <string msgid="4637324840434406584" name="accessibility_voice_search_button">"Дуун хайлт"</string>
+    <string msgid="8071924732094499514" name="activity_not_found">"Апп суугаагүй байна."</string>
+    <string msgid="9110807029020582876" name="all_apps_button_label">"Апп"</string>
+    <string msgid="400866858451850784" name="all_apps_cling_add_item">"Нүүр дэлгэцэнд апп нэмэх бол хүрээд барина уу."</string>
+    <string msgid="34929250753095858" name="all_apps_cling_title">"Апп сонгоно уу"</string>
+    <string msgid="252062713717058851" name="all_apps_home_button_label">"Нүүр"</string>
+    <string msgid="8338254712932127413" name="announce_selection">"<ns1:g id="LABEL">%1$s</ns1:g> сонгогдсон"</string>
+    <string msgid="5181331383435256801" name="application_name">"Launcher3"</string>
+    <string msgid="370005296147130238" name="apps_customize_apps_scroll_format">"%2$d-н %1$d апп хуудас"</string>
+    <string msgid="3106209519974971521" name="apps_customize_widgets_scroll_format">"%2$d-н %1$d виджет хуудас"</string>
+    <string msgid="374688303047985416" name="cab_app_selection_text">"1 апп сонгогдсон"</string>
+    <string msgid="7999992513806132118" name="cab_folder_selection_text">"1 фолдер сонгогдсон"</string>
+    <string msgid="8593722221450362342" name="cab_menu_app_info">"Апп дэлгэрэнгүй"</string>
+    <string msgid="7435191475867183689" name="cab_menu_delete_app">"Апп устгах"</string>
+    <string msgid="2103811025667946450" name="cab_shortcut_selection_text">"1 товчлол сонгогдсон"</string>
+    <string msgid="1833458597831541241" name="cab_widget_selection_text">"1 виджет сонгогдсон"</string>
+    <string msgid="7009134900002915310" name="cancel_action">"Цуцлах"</string>
+    <string msgid="8962359497601507581" name="cling_dismiss">"Тийм"</string>
+    <string msgid="6106288382070760318" name="completely_out_of_space">"Таны Нүүр дэлгэц зайгүй."</string>
+    <string msgid="8334345984491368009" name="crop_wallpaper">"Ханын зургийг тайрах"</string>
+    <string msgid="939966842147696724" name="custom_workspace_cling_description_1"/>
+    <string msgid="8097921091798539310" name="custom_workspace_cling_description_2"/>
+    <string msgid="3750880082935033085" name="custom_workspace_cling_title_1"/>
+    <string msgid="662588444436552198" name="custom_workspace_cling_title_2"/>
+    <string msgid="7475544710230993317" name="default_scroll_format">"%2$d-н %1$d хуудас"</string>
+    <string msgid="1822697352535677073" name="delete_target_label">"Устгах"</string>
+    <string msgid="5100785476250872595" name="delete_target_uninstall_label">"Устгах"</string>
+    <string msgid="8083826390278958980" name="delete_zone_label_all_apps">"Устгах"</string>
+    <string msgid="449755632749610895" name="delete_zone_label_all_apps_system_app">"Шинэчлэлийг устгах"</string>
+    <string msgid="4009607676751398685" name="delete_zone_label_workspace">"Устгах"</string>
+    <string msgid="1530253749244328964" name="dream_name">"Пуужин хөөргөгч"</string>
+    <string msgid="3165821058322217155" name="external_drop_widget_error">"Энэ Нүүр дэлгэцэнд буулгах боломжгүй."</string>
+    <string msgid="3486317258037690630" name="external_drop_widget_pick_title">"Үүсгэх виджетээ сонгоно уу"</string>
+    <string msgid="6950729526680114157" name="first_run_cling_create_screens_hint">"Апп болон фолдеруудад зориулан өөр дэлгэцүүд үүсгээрэй"</string>
+    <string msgid="6090628589029352439" name="first_run_cling_custom_content_hint"/>
+    <string msgid="6447072552696253358" name="first_run_cling_description">"Гэртээ байгаа мэт тухлаарай."</string>
+    <string msgid="5909062802402452582" name="first_run_cling_search_bar_hint"/>
+    <string msgid="7257389003637362144" name="first_run_cling_title">"Тавтай морилно уу!"</string>
+    <string msgid="6158215559475836131" name="folder_cling_create_folder">"Үүнтэй адилханыг үүсгэхийн тулд апп дээр хүрч &amp; бариад нөгөөхийн дээр зөөнө үү."</string>
+    <string msgid="3894908818693254164" name="folder_cling_title">"Фолдер энд байна"</string>
+    <string msgid="4100806530910930934" name="folder_closed">"Фолдер хаагдав"</string>
+    <string msgid="6617836969016293992" name="folder_hint_text">"Нэргүй фолдер"</string>
+    <string msgid="7371454440695724752" name="folder_name"/>
+    <string msgid="6629239338071103179" name="folder_name_format">"Фолдер: <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="94695026776264709" name="folder_opened">"<ns1:g id="WIDTH">%1$d</ns1:g> <ns1:g id="HEIGHT">%2$d</ns1:g> фолдер нээгдэв"</string>
+    <string msgid="1794088362165669656" name="folder_renamed">"Фолдерын нэр <ns1:g id="NAME">%1$s</ns1:g> болов"</string>
+    <string msgid="1884479294466410023" name="folder_tap_to_close">"Фолдер хаах бол хүрнэ үү"</string>
+    <string msgid="9191075570492871147" name="folder_tap_to_rename">"Шинэ нэрийг хадгалах бол хүрнэ үү"</string>
+    <string msgid="6081085226050792095" name="gadget_error_text">"Виджет ачаалахад асуудал гарав"</string>
+    <string msgid="3797214114206693605" name="group_applications">"Апп"</string>
+    <string msgid="6012256992764410535" name="group_shortcuts">"Товчлол"</string>
+    <string msgid="1569030723286851002" name="group_widgets">"Виджет"</string>
+    <string msgid="7658288663002113681" name="home">"Нүүр"</string>
+    <string msgid="9139760413395605841" name="hotseat_out_of_space">"Суурь зайгүй."</string>
+    <string msgid="8053346143994679532" name="info_target_label">"Апп мэдээлэл"</string>
+    <string msgid="1211534262129849507" name="invalid_hotseat_item">"Энэ виджет сууринд хэт томдож байна."</string>
+    <string msgid="7699152356777458215" name="long_press_widget_to_add">"Виджетийг авах бол хүрээд барина уу."</string>
+    <string msgid="2619650989819296998" name="market">"Дэлгүүр"</string>
+    <string msgid="1264911265836810421" name="menu_item_add_item">"Нүүр дэлгэцэнд нэмэх"</string>
+    <string msgid="4691004494942118364" name="out_of_space">"Энэ Нүүр дэлгэц зайгүй."</string>
+    <string msgid="923466509822011139" name="permdesc_install_shortcut">"Апп нь хэрэглэгчийн оролцоогүйгээр товчлолыг нэмэж чадна"</string>
+    <string msgid="5833423719057558387" name="permdesc_read_settings">"Апп нь Нүүрэндэх товчлол болон тохиргоог уншиж чадна."</string>
+    <string msgid="5134129545001836849" name="permdesc_uninstall_shortcut">"Апп нь хэрэглэгчийн оролцоогүйгээр товчлолыг устгаж чадна"</string>
+    <string msgid="5440712911516509985" name="permdesc_write_settings">"Апп нь Нүүрэндэх товчлол болон тохиргоог өөрчилж чадна."</string>
+    <string msgid="5632423390354674437" name="permlab_install_shortcut">"товчлол суулгах"</string>
+    <string msgid="1941457408239617576" name="permlab_read_settings">"Нүүрний тохиргоо болон товчлолыг унших"</string>
+    <string msgid="864595034498083837" name="permlab_uninstall_shortcut">"товчлолыг устгах"</string>
+    <string msgid="3574213698004620587" name="permlab_write_settings">"Нүүрний тохиргоо болон товчлолыг бичих"</string>
+    <string msgid="1272073934062909527" name="pick_image">"Зураг сонгох"</string>
+    <string msgid="8179698221502010609" name="pick_wallpaper">"Ханын зураг"</string>
+    <string msgid="5559600076028658757" name="rename_action">"Тийм"</string>
+    <string msgid="3727762225964550653" name="rename_folder_label">"Фолдерын нэр"</string>
+    <string msgid="3771389277707820891" name="rename_folder_title">"Фолдерын нэр өөрчлөх"</string>
+    <string msgid="8119458837558863227" name="settings_button_text">"Тохиргоо"</string>
+    <string msgid="9167217446062498127" name="shortcut_duplicate">"\"<ns1:g id="NAME">%s</ns1:g>\" товчлол өмнө үүссэн байна."</string>
+    <string msgid="1701742129426969556" name="shortcut_installed">"\"<ns1:g id="NAME">%s</ns1:g>\" товчлол үүсэв."</string>
+    <string msgid="8176767991305701821" name="shortcut_uninstalled">"\"<ns1:g id="NAME">%s</ns1:g>\" товчлол устгагдав."</string>
+    <string msgid="3280812711670683644" name="title_select_application">"Апп сонгох"</string>
+    <string msgid="6680642571148153868" name="title_select_shortcut">"Товчлол сонгох"</string>
+    <string msgid="5645299835184636119" name="toggle_weight_watcher">"Мем харуулах"</string>
+    <string msgid="7820867637514617527" name="uid_name">"Андройд үндсэн апп"</string>
+    <string msgid="4172046090762920660" name="uninstall_system_app_text">"Энэ апп нь системийн апп ба устгах боломжгүй."</string>
+    <string msgid="1655953108132967972" name="wallpaper_accessibility_name">"%2$d ханын цаасны %1$d нь"</string>
+    <string msgid="8404103075899945851" name="wallpaper_button_text">"Ханын зураг"</string>
+    <string msgid="8095005658756613921" name="wallpaper_delete">"Устгах"</string>
+    <string msgid="563973358787555519" name="wallpaper_instructions">"Ханын зургийг тохируулах"</string>
+    <string msgid="3201040140710381657" name="widget_adder">"Виджет"</string>
+    <string msgid="2880537293434387943" name="widget_button_text">"Виджет"</string>
+    <string msgid="2370757736025621599" name="widget_dims_format">"%1$d × %2$d"</string>
+    <string msgid="2921133187116603919" name="widgets_tab_label">"Виджет"</string>
+    <string msgid="528201129978005352" name="workspace_cling_move_item">"Арын дэвсгэр дээр хүрээд &amp; дарснаар ханын зураг, виджет болон тохиргоог өөрчилж болно."</string>
+    <string msgid="5626202359865825661" name="workspace_cling_title">"Өөрийнхөө зайг тохируулаарай"</string>
+    <string msgid="2950174241104043327" name="workspace_description_format">"Нүүр дэлгэц %1$d"</string>
+    <string msgid="8458889198184077399" name="workspace_scroll_format">"%2$d-н Нүүр дэлгэц %1$d"</string>
+</resources>

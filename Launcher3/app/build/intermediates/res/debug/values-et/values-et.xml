@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-et/strings.xml -->
+    <eat-comment/>
+    <string msgid="8803738611398979849" name="accessibility_all_apps_button">"Rakendused"</string>
+    <string msgid="3628162007991023603" name="accessibility_delete_button">"Eemalda"</string>
+    <string msgid="816822994629942611" name="accessibility_search_button">"Otsing"</string>
+    <string msgid="3938249215065842475" name="accessibility_voice_search_button">"Häälotsing"</string>
+    <string msgid="217823393239365967" name="activity_not_found">"Rakendus pole installitud."</string>
+    <string msgid="2578400570124163469" name="all_apps_button_label">"Rakendused"</string>
+    <string msgid="5665035103260318891" name="all_apps_cling_add_item">"Rakenduse lisamiseks avakuvale puudutage seda pikalt."</string>
+    <string msgid="2559734712581447107" name="all_apps_cling_title">"Valige mõned rakendused"</string>
+    <string msgid="1022222300329398558" name="all_apps_home_button_label">"Kodu"</string>
+    <string msgid="8424725141379931883" name="application_name">"Käivitaja"</string>
+    <string msgid="5494241912377704885" name="apps_customize_apps_scroll_format">"Rakenduste leht %1$d/%2$d"</string>
+    <string msgid="5383009742241717437" name="apps_customize_widgets_scroll_format">"Vidinate leht %1$d/%2$d"</string>
+    <string msgid="6378522164293415735" name="cab_app_selection_text">"Valitud on 1 rakendus"</string>
+    <string msgid="8916111874189565067" name="cab_folder_selection_text">"1 kaust on valitud"</string>
+    <string msgid="914548323652698884" name="cab_menu_app_info">"Rakenduse üksikasjad"</string>
+    <string msgid="4089398025537640349" name="cab_menu_delete_app">"Rakenduse desinstallimine"</string>
+    <string msgid="8115847384500412878" name="cab_shortcut_selection_text">"1 otsetee on valitud"</string>
+    <string msgid="962527270506951955" name="cab_widget_selection_text">"1 vidin on valitud"</string>
+    <string msgid="3811860427489435048" name="cancel_action">"Tühista"</string>
+    <string msgid="6063168087625352235" name="chooser_wallpaper">"Taustapildi valimiskoht:"</string>
+    <string msgid="2780907108735868381" name="cling_dismiss">"OK"</string>
+    <string msgid="1759078539443491182" name="completely_out_of_space">"Teie avakuvadel ei ole enam ruumi."</string>
+    <string msgid="6875529190849858047" name="custom_workspace_cling_description_1"/>
+    <string msgid="2758258454975288377" name="custom_workspace_cling_description_2"/>
+    <string msgid="1433009175359948587" name="custom_workspace_cling_title_1"/>
+    <string msgid="5516006164661020362" name="custom_workspace_cling_title_2"/>
+    <string msgid="4057140866420001240" name="default_scroll_format">"Leht %1$d/%2$d"</string>
+    <string msgid="665300185123139530" name="delete_target_label">"Eemalda"</string>
+    <string msgid="748894921183769150" name="delete_target_uninstall_label">"Desinstalli"</string>
+    <string msgid="6664588234817475108" name="delete_zone_label_all_apps">"Desinstalli"</string>
+    <string msgid="3683920959591819044" name="delete_zone_label_all_apps_system_app">"Desinstalli värskendus"</string>
+    <string msgid="7153615831493049150" name="delete_zone_label_workspace">"Eemalda"</string>
+    <string msgid="2847171357608437154" name="dream_name">"Rocket Launcher"</string>
+    <string msgid="2285187188524172774" name="external_drop_widget_error">"Üksust ei saa sellele avaekraanile tuua."</string>
+    <string msgid="7040647073452295370" name="external_drop_widget_pick_title">"Valige loomiseks vidin"</string>
+    <string msgid="8352867485656129478" name="folder_cling_create_folder">"Avakuval uue kausta tegemiseks virnastage üks rakendus teisele."</string>
+    <string msgid="270598675060435169" name="folder_cling_move_item">"Rakenduse liigutamiseks pange sõrm rakendusele ja hoidke seda."</string>
+    <string msgid="4308949882377840953" name="folder_cling_title">"Korraldage oma rakendused kaustadesse"</string>
+    <string msgid="3130534551370511932" name="folder_closed">"Kaust suletud"</string>
+    <string msgid="8633351560105748141" name="folder_hint_text">"Nimeta kaust"</string>
+    <string msgid="8551881338202938211" name="folder_name"/>
+    <string msgid="3051680259794759037" name="folder_name_format">"<ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="1262064100943801533" name="folder_opened">"Kaust on avatud, <ns1:g id="WIDTH">%1$d</ns1:g> x <ns1:g id="HEIGHT">%2$d</ns1:g>"</string>
+    <string msgid="7951233572858053642" name="folder_renamed">"Kausta uus nimi: <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="1335478160661137579" name="folder_tap_to_close">"Puudutage kausta sulgemiseks"</string>
+    <string msgid="5201612989905472442" name="folder_tap_to_rename">"Puudutage uue nime salvestamiseks"</string>
+    <string msgid="8359351016167075858" name="gadget_error_text">"Probleem vidina laadimisel"</string>
+    <string msgid="2103752818818161976" name="group_applications">"Rakendused"</string>
+    <string msgid="9133529424900391877" name="group_shortcuts">"Otseteed"</string>
+    <string msgid="1568191644272224858" name="group_wallpapers">"Taustapildid"</string>
+    <string msgid="6704978494073105844" name="group_widgets">"Vidinad"</string>
+    <string msgid="5921706419368316758" name="home">"Kodu"</string>
+    <string msgid="6304886797358479361" name="hotseat_out_of_space">"Kohandataval dokialal pole rohkem ruumi."</string>
+    <string msgid="4019495079517426980" name="info_target_label">"Rakenduse teave"</string>
+    <string msgid="6545340627805449250" name="invalid_hotseat_item">"See vidin on tööpunkti jaoks liiga suur."</string>
+    <string msgid="7395697462851217506" name="long_press_widget_to_add">"Vidina valimiseks puudutage seda pikalt."</string>
+    <string msgid="2652226429823445833" name="market">"Pood"</string>
+    <string msgid="3065046628354640854" name="menu_add">"Lisa"</string>
+    <string msgid="4901160661634590633" name="menu_help">"Abi"</string>
+    <string msgid="6233177331075781114" name="menu_item_add_item">"Lisa avamenüüsse"</string>
+    <string msgid="2308685199463588895" name="menu_manage_apps">"Rakenduste haldamine"</string>
+    <string msgid="6424587053194766192" name="menu_notifications">"Teadistused"</string>
+    <string msgid="4826514464423239041" name="menu_search">"Otsing"</string>
+    <string msgid="3946232973327980394" name="menu_settings">"Süsteemiseaded"</string>
+    <string msgid="5837429080911269832" name="menu_wallpaper">"Taustapilt"</string>
+    <string msgid="8365249326091984698" name="out_of_space">"Sellel avalehel pole enam ruumi."</string>
+    <string msgid="8634424803272077038" name="permdesc_install_shortcut">"Võimaldab rakendusel lisada otseteid kasutaja sekkumiseta."</string>
+    <string msgid="5788109303585403679" name="permdesc_read_settings">"Võimaldab rakendusel lugeda avalehe seadeid ja otseteid."</string>
+    <string msgid="274355570620220977" name="permdesc_uninstall_shortcut">"Võimaldab rakendusel eemaldada otseteid kasutaja sekkumiseta."</string>
+    <string msgid="8530105489115785531" name="permdesc_write_settings">"Võimaldab rakendusel muuta avalehel seadeid ja otseteid."</string>
+    <string msgid="1201690825493376489" name="permlab_install_shortcut">"otseteede installimine"</string>
+    <string msgid="3452408290738106747" name="permlab_read_settings">"avalehe seadete ja otseteede lugemine"</string>
+    <string msgid="7696645932555926449" name="permlab_uninstall_shortcut">"otseteede desinstallimine"</string>
+    <string msgid="1360567537236705628" name="permlab_write_settings">"avalehe seadete ja otseteede kirjutamine"</string>
+    <string msgid="5630222540525626723" name="pick_wallpaper">"Taustapildid"</string>
+    <string msgid="6016003384693240896" name="rename_action">"OK"</string>
+    <string msgid="5646236631298452787" name="rename_folder_label">"Kausta nimi"</string>
+    <string msgid="4544573104191526550" name="rename_folder_title">"Nimeta kaust ümber"</string>
+    <string msgid="4757756326465060694" name="shortcut_duplicate">"Otsetee „<ns1:g id="NAME">%s</ns1:g>” on juba olemas."</string>
+    <string msgid="7071557296331322355" name="shortcut_installed">"Otsetee „<ns1:g id="NAME">%s</ns1:g>” loodud."</string>
+    <string msgid="2129499669449749995" name="shortcut_uninstalled">"Otsetee „<ns1:g id="NAME">%s</ns1:g>” eemaldatud."</string>
+    <string msgid="1793455815754848652" name="title_select_application">"Rakenduse valimine"</string>
+    <string msgid="1873670208166882222" name="title_select_shortcut">"Otsetee valimine"</string>
+    <string msgid="3371120195364560632" name="uid_name">"Androidi tuumrakendused"</string>
+    <string msgid="6429814133777046491" name="uninstall_system_app_text">"See on süsteemirakendus ja seda ei saa desinstallida."</string>
+    <string msgid="4215640646180727542" name="wallpaper_instructions">"Määra taustapilt"</string>
+    <string msgid="1386418557719032947" name="widget_dims_format">"%1$d × %2$d"</string>
+    <string msgid="9145860100000983599" name="widgets_tab_label">"Vidinad"</string>
+    <string msgid="791013895761065070" name="workspace_cling_move_item">"Võite panna oma lemmikrakendused siia."</string>
+    <string msgid="2459977609848572588" name="workspace_cling_open_all_apps">"Kõikide oma rakenduste nägemiseks puudutage ringi."</string>
+    <string msgid="738396473989890567" name="workspace_cling_title">"Tunne end nagu kodus"</string>
+    <string msgid="2968608205939373034" name="workspace_description_format">"Avakuva %1$d"</string>
+    <string msgid="1704767047951143301" name="workspace_scroll_format">"Avakuva %1$d/%2$d"</string>
+</resources>

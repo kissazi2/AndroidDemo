@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-sw600dp/config.xml -->
+    <eat-comment/>
+    <bool name="allow_rotation">true</bool>
+    <bool name="config_useCustomClings">true</bool>
+    <bool name="is_tablet">true</bool>
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-sw600dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="app_icon_size">64dp</dimen>
+    <dimen name="app_widget_preview_label_margin_left">@dimen/app_widget_preview_padding_left</dimen>
+    <dimen name="app_widget_preview_label_margin_right">@dimen/app_widget_preview_padding_right</dimen>
+    <dimen name="app_widget_preview_label_margin_top">8dp</dimen>
+    <dimen name="apps_customize_tab_bar_height">60dp</dimen>
+    <dimen name="apps_customize_tab_bar_margin_top">8dp</dimen>
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-sw600dp/config.xml -->
+    <eat-comment/>
+    <integer name="config_cameraDistance">14000</integer>
+    <integer name="config_flingToDeleteMinVelocity">-1000</integer>
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-sw600dp/styles.xml -->
+    <eat-comment/>
+    <style name="ClingButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">15dp</item>
+        <item name="android:paddingStart">35dp</item>
+        <item name="android:paddingEnd">35dp</item>
+        <item name="android:text">@string/cling_dismiss</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/cling_button_bg</item>
+    </style>
+    <style name="ClingText">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2.0</item>
+        <item name="android:lineSpacingMultiplier">1.1</item>
+    </style>
+    <style name="ClingTitleText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">#33B5E5</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">2.0</item>
+    </style>
+</resources>

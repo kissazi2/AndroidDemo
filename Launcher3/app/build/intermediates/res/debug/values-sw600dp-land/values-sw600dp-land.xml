@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-sw600dp-land/dimens.xml -->
+    <eat-comment/>
+    <dimen name="apps_customize_pageLayoutHeightGap">8dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingBottom">14dp</dimen>
+    <dimen name="apps_customize_pageLayoutPaddingTop">20dp</dimen>
+    <dimen name="apps_customize_pageLayoutWidthGap">36dp</dimen>
+    <dimen name="toolbar_button_horizontal_padding">20dip</dimen>
+    <dimen name="toolbar_button_vertical_padding">12dip</dimen>
+</resources>

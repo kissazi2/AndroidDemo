@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-rm/strings.xml -->
+    <eat-comment/>
+    <string msgid="939966842147696724" name="custom_workspace_cling_description_1"/>
+    <string msgid="8097921091798539310" name="custom_workspace_cling_description_2"/>
+    <string msgid="3750880082935033085" name="custom_workspace_cling_title_1"/>
+    <string msgid="662588444436552198" name="custom_workspace_cling_title_2"/>
+    <string msgid="6090628589029352439" name="first_run_cling_custom_content_hint"/>
+    <string msgid="5909062802402452582" name="first_run_cling_search_bar_hint"/>
+    <string msgid="7371454440695724752" name="folder_name"/>
+</resources>

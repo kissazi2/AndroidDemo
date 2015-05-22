@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-sw340dp-port/config.xml -->
+    <eat-comment/>
+    <bool name="config_workspaceFadeAdjacentScreens">false</bool>
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-sw340dp-port/dimens.xml -->
+    <eat-comment/>
+    <dimen name="folderClingMarginTop">70dp</dimen>
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-sw340dp-port/styles.xml -->
+    <eat-comment/>
+    <style name="SearchButton">
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:paddingTop">@dimen/toolbar_button_vertical_padding</item>
+        <item name="android:paddingBottom">@dimen/toolbar_button_vertical_padding</item>
+    </style>
+    <style name="TabIndicator.AppsCustomize">
+        <item name="android:maxWidth">150dp</item>
+    </style>
+</resources>

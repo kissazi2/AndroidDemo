@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/Users/bang/AndroidStudioProjects/Launcher3/app/src/main/res/values-th/strings.xml -->
+    <eat-comment/>
+    <plurals name="number_of_items_selected">
+    <item msgid="7464587177007785408" quantity="zero">"เลือกไว้ %1$d"</item>
+    <item msgid="142482526010824029" quantity="one">"เลือกไว้ %1$d"</item>
+    <item msgid="1418352074806573570" quantity="other">"เลือกไว้ %1$d"</item>
+  </plurals>
+    <string msgid="2603132375383800483" name="accessibility_all_apps_button">"แอป"</string>
+    <string msgid="6466114477993744621" name="accessibility_delete_button">"ลบ"</string>
+    <string msgid="1628520399424565142" name="accessibility_search_button">"ค้นหา"</string>
+    <string msgid="4637324840434406584" name="accessibility_voice_search_button">"ค้นหาด้วยเสียง"</string>
+    <string msgid="8071924732094499514" name="activity_not_found">"ไม่ได้ติดตั้งแอป"</string>
+    <string msgid="9110807029020582876" name="all_apps_button_label">"แอป"</string>
+    <string msgid="400866858451850784" name="all_apps_cling_add_item">"หากต้องการเพิ่มแอปลงในหน้าจอหลัก ให้แตะแอปค้างไว้"</string>
+    <string msgid="34929250753095858" name="all_apps_cling_title">"เลือกบางแอป"</string>
+    <string msgid="252062713717058851" name="all_apps_home_button_label">"หน้าแรก"</string>
+    <string msgid="8338254712932127413" name="announce_selection">"เลือก <ns1:g id="LABEL">%1$s</ns1:g> แล้ว"</string>
+    <string msgid="5181331383435256801" name="application_name">"Launcher3"</string>
+    <string msgid="370005296147130238" name="apps_customize_apps_scroll_format">"แอปหน้า %1$d จาก %2$d"</string>
+    <string msgid="3106209519974971521" name="apps_customize_widgets_scroll_format">"วิดเจ็ตหน้า %1$d จาก %2$d"</string>
+    <string msgid="374688303047985416" name="cab_app_selection_text">"เลือกไว้ 1 แอป"</string>
+    <string msgid="7999992513806132118" name="cab_folder_selection_text">"เลือกไว้ 1 โฟลเดอร์"</string>
+    <string msgid="8593722221450362342" name="cab_menu_app_info">"รายละเอียดแอป"</string>
+    <string msgid="7435191475867183689" name="cab_menu_delete_app">"ถอนการติดตั้งแอป"</string>
+    <string msgid="2103811025667946450" name="cab_shortcut_selection_text">"เลือกไว้ 1 ทางลัด"</string>
+    <string msgid="1833458597831541241" name="cab_widget_selection_text">"เลือกไว้ 1 วิดเจ็ต"</string>
+    <string msgid="7009134900002915310" name="cancel_action">"ยกเลิก"</string>
+    <string msgid="8962359497601507581" name="cling_dismiss">"ตกลง"</string>
+    <string msgid="6106288382070760318" name="completely_out_of_space">"ไม่มีที่ว่างในหน้าจอหลักของคุณ"</string>
+    <string msgid="8334345984491368009" name="crop_wallpaper">"ครอบตัดวอลล์เปเปอร์"</string>
+    <string msgid="939966842147696724" name="custom_workspace_cling_description_1"/>
+    <string msgid="8097921091798539310" name="custom_workspace_cling_description_2"/>
+    <string msgid="3750880082935033085" name="custom_workspace_cling_title_1"/>
+    <string msgid="662588444436552198" name="custom_workspace_cling_title_2"/>
+    <string msgid="7475544710230993317" name="default_scroll_format">"หน้า %1$d จาก %2$d"</string>
+    <string msgid="1822697352535677073" name="delete_target_label">"ลบ"</string>
+    <string msgid="5100785476250872595" name="delete_target_uninstall_label">"ถอนการติดตั้ง"</string>
+    <string msgid="8083826390278958980" name="delete_zone_label_all_apps">"ถอนการติดตั้ง"</string>
+    <string msgid="449755632749610895" name="delete_zone_label_all_apps_system_app">"ถอนการติดตั้งการอัปเดต"</string>
+    <string msgid="4009607676751398685" name="delete_zone_label_workspace">"ลบ"</string>
+    <string msgid="1530253749244328964" name="dream_name">"Rocket Launcher"</string>
+    <string msgid="3165821058322217155" name="external_drop_widget_error">"ไม่สามารถวางรายการลงในหน้าจอหลักนี้"</string>
+    <string msgid="3486317258037690630" name="external_drop_widget_pick_title">"เลือกวิดเจ็ตที่จะสร้าง"</string>
+    <string msgid="6950729526680114157" name="first_run_cling_create_screens_hint">"สร้างหน้าจอเพิ่มสำหรับแอปและโฟลเดอร์"</string>
+    <string msgid="6090628589029352439" name="first_run_cling_custom_content_hint"/>
+    <string msgid="6447072552696253358" name="first_run_cling_description">"ทำตัวตามสบาย"</string>
+    <string msgid="5909062802402452582" name="first_run_cling_search_bar_hint"/>
+    <string msgid="7257389003637362144" name="first_run_cling_title">"ยินดีต้อนรับ!"</string>
+    <string msgid="6158215559475836131" name="folder_cling_create_folder">"หากต้องการสร้างโฟลเดอร์ลักษณะนี้ แตะแอปค้างไว้ แล้วย้ายไปทับอีกแอปหนึ่ง"</string>
+    <string msgid="3894908818693254164" name="folder_cling_title">"นี่คือโฟลเดอร์"</string>
+    <string msgid="4100806530910930934" name="folder_closed">"โฟลเดอร์ปิดอยู่"</string>
+    <string msgid="6617836969016293992" name="folder_hint_text">"โฟลเดอร์ที่ไม่มีชื่อ"</string>
+    <string msgid="7371454440695724752" name="folder_name"/>
+    <string msgid="6629239338071103179" name="folder_name_format">"โฟลเดอร์: <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="94695026776264709" name="folder_opened">"เปิดโฟลเดอร์ <ns1:g id="WIDTH">%1$d</ns1:g> x <ns1:g id="HEIGHT">%2$d</ns1:g>"</string>
+    <string msgid="1794088362165669656" name="folder_renamed">"เปลี่ยนชื่อโฟลเดอร์เป็น <ns1:g id="NAME">%1$s</ns1:g>"</string>
+    <string msgid="1884479294466410023" name="folder_tap_to_close">"แตะเพื่อปิดโฟลเดอร์"</string>
+    <string msgid="9191075570492871147" name="folder_tap_to_rename">"แตะเพื่อบันทึกการเปลี่ยนชื่อ"</string>
+    <string msgid="6081085226050792095" name="gadget_error_text">"มีปัญหาขณะโหลดวิดเจ็ต"</string>
+    <string msgid="3797214114206693605" name="group_applications">"แอป"</string>
+    <string msgid="6012256992764410535" name="group_shortcuts">"ทางลัด"</string>
+    <string msgid="1569030723286851002" name="group_widgets">"วิดเจ็ต"</string>
+    <string msgid="7658288663002113681" name="home">"หน้าแรก"</string>
+    <string msgid="9139760413395605841" name="hotseat_out_of_space">"ไม่มีที่ว่างใน hotseat"</string>
+    <string msgid="8053346143994679532" name="info_target_label">"ข้อมูลแอป"</string>
+    <string msgid="1211534262129849507" name="invalid_hotseat_item">"วิดเจ็ตนี้มีขนาดใหญ่เกินไปสำหรับ hotseat"</string>
+    <string msgid="7699152356777458215" name="long_press_widget_to_add">"แตะค้างเพื่อรับวิดเจ็ต"</string>
+    <string msgid="2619650989819296998" name="market">"เลือกซื้อ"</string>
+    <string msgid="1264911265836810421" name="menu_item_add_item">"เพิ่มลงในหน้าแรก"</string>
+    <string msgid="4691004494942118364" name="out_of_space">"ไม่มีที่ว่างในหน้าจอหลักนี้"</string>
+    <string msgid="923466509822011139" name="permdesc_install_shortcut">"อนุญาตให้แอปเพิ่มทางลัดโดยไม่ต้องให้ผู้ใช้จัดการ"</string>
+    <string msgid="5833423719057558387" name="permdesc_read_settings">"อนุญาตให้แอปอ่านการตั้งค่าและทางลัดในหน้าแรก"</string>
+    <string msgid="5134129545001836849" name="permdesc_uninstall_shortcut">"อนุญาตให้แอปนำทางลัดออกโดยไม่ต้องให้ผู้ใช้จัดการ"</string>
+    <string msgid="5440712911516509985" name="permdesc_write_settings">"อนุญาตให้แอปเปลี่ยนการตั้งค่าและทางลัดในหน้าแรก"</string>
+    <string msgid="5632423390354674437" name="permlab_install_shortcut">"ติดตั้งทางลัด"</string>
+    <string msgid="1941457408239617576" name="permlab_read_settings">"อ่านการตั้งค่าและทางลัดหน้าแรกแล้ว"</string>
+    <string msgid="864595034498083837" name="permlab_uninstall_shortcut">"ถอนการติดตั้งทางลัด"</string>
+    <string msgid="3574213698004620587" name="permlab_write_settings">"เขียนการตั้งค่าและทางลัดหน้าแรกแล้ว"</string>
+    <string msgid="1272073934062909527" name="pick_image">"เลือกภาพ"</string>
+    <string msgid="8179698221502010609" name="pick_wallpaper">"วอลเปเปอร์"</string>
+    <string msgid="5559600076028658757" name="rename_action">"ตกลง"</string>
+    <string msgid="3727762225964550653" name="rename_folder_label">"ชื่อโฟลเดอร์"</string>
+    <string msgid="3771389277707820891" name="rename_folder_title">"เปลี่ยนชื่อโฟลเดอร์"</string>
+    <string msgid="8119458837558863227" name="settings_button_text">"การตั้งค่า"</string>
+    <string msgid="9167217446062498127" name="shortcut_duplicate">"มีทางลัด \"<ns1:g id="NAME">%s</ns1:g>\" อยู่แล้ว"</string>
+    <string msgid="1701742129426969556" name="shortcut_installed">"สร้างทางลัด \"<ns1:g id="NAME">%s</ns1:g>\" แล้ว"</string>
+    <string msgid="8176767991305701821" name="shortcut_uninstalled">"นำทางลัด \"<ns1:g id="NAME">%s</ns1:g>\" ออกแล้ว"</string>
+    <string msgid="3280812711670683644" name="title_select_application">"เลือกแอป"</string>
+    <string msgid="6680642571148153868" name="title_select_shortcut">"เลือกทางลัด"</string>
+    <string msgid="5645299835184636119" name="toggle_weight_watcher">"แสดง Mem"</string>
+    <string msgid="7820867637514617527" name="uid_name">"แอปหลักของแอนดรอยด์"</string>
+    <string msgid="4172046090762920660" name="uninstall_system_app_text">"นี่เป็นแอประบบและไม่สามารถถอนการติดตั้งได้"</string>
+    <string msgid="1655953108132967972" name="wallpaper_accessibility_name">"วอลเปเปอร์ %1$d จาก %2$d"</string>
+    <string msgid="8404103075899945851" name="wallpaper_button_text">"วอลเปเปอร์"</string>
+    <string msgid="8095005658756613921" name="wallpaper_delete">"ลบ"</string>
+    <string msgid="563973358787555519" name="wallpaper_instructions">"ตั้งค่าวอลเปเปอร์"</string>
+    <string msgid="3201040140710381657" name="widget_adder">"วิดเจ็ต"</string>
+    <string msgid="2880537293434387943" name="widget_button_text">"วิดเจ็ต"</string>
+    <string msgid="2370757736025621599" name="widget_dims_format">"%1$d × %2$d"</string>
+    <string msgid="2921133187116603919" name="widgets_tab_label">"วิดเจ็ต"</string>
+    <string msgid="528201129978005352" name="workspace_cling_move_item">"แตะพื้นหลังค้างไว้เพื่อจัดการวอลเปเปอร์ วิดเจ็ต และการตั้งค่า"</string>
+    <string msgid="5626202359865825661" name="workspace_cling_title">"จัดระเบียบพื้นที่ของคุณ"</string>
+    <string msgid="2950174241104043327" name="workspace_description_format">"หน้าจอหลัก %1$d"</string>
+    <string msgid="8458889198184077399" name="workspace_scroll_format">"หน้าจอหลัก %1$d จาก %2$d"</string>
+</resources>
