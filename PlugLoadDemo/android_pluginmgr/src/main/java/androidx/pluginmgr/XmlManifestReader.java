@@ -29,7 +29,7 @@ import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
 /**
- * 
+ * AndroidManifest XML信息提取
  * Read xml document from Android's binary xml file.
  */
 class XmlManifestReader {

@@ -24,7 +24,7 @@ import java.util.Map;
 import dalvik.system.DexClassLoader;
 
 /**
- * 插件类加载器
+ * 插件类加载器，实现dex文件生成、加载
  * 
  * @author HouKangxi
  * 
@@ -49,6 +49,12 @@ class PluginClassLoader extends DexClassLoader {
 		Log.i(tag, "libraryPath = "+libraryPath);
 	}
 
+	/**
+	 * 加载Activity类
+	 * @param actClassName 将要加载的特定Activity（带包名）
+	 * @return
+	 * @throws ClassNotFoundException
+	 */
 	Class<?> loadActivityClass(final String actClassName) throws ClassNotFoundException {
 		Log.d(tag, "loadActivityClass: " + actClassName);
 

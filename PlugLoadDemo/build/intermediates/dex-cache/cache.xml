@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/bang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jar="/Users/bang/AndroidStudioProjects/PlugLoadDemo/app/build/intermediates/exploded-aar/PlugLoadDemo/android_pluginmgr/unspecified/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
-        <dex dex="/Users/bang/AndroidStudioProjects/PlugLoadDemo/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-9344ac584c57a72a0b03cbe7b4ad5f10f0684995.jar" />
+        sha1="e9004f9360241c81ec0bf855b2ede2fd3571e60d">
+        <dex dex="/Users/bang/AndroidStudioProjects/PlugLoadDemo/app/build/intermediates/pre-dexed/debug/classes-a245fd4c2152a836d13f10fe7a4655dfd7b64173.jar" />
     </item>
     <item
         jar="/Users/bang/AndroidStudioProjects/PlugLoadDemo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
@@ -23,18 +23,18 @@
         <dex dex="/Users/bang/AndroidStudioProjects/PlugLoadDemo/app/build/intermediates/pre-dexed/debug/classes-f5de407d639c47c618d6c37290ee0267973b0221.jar" />
     </item>
     <item
+        jar="/Users/bang/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.1/support-annotations-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="/Users/bang/AndroidStudioProjects/PlugLoadDemo/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-9344ac584c57a72a0b03cbe7b4ad5f10f0684995.jar" />
+    </item>
+    <item
         jar="/Users/bang/AndroidStudioProjects/PlugLoadDemo/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
         <dex dex="/Users/bang/AndroidStudioProjects/PlugLoadDemo/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-72073e97f68c4bbb41defa129841efc8675219eb.jar" />
-    </item>
-    <item
-        jar="/Users/bang/AndroidStudioProjects/PlugLoadDemo/app/build/intermediates/exploded-aar/PlugLoadDemo/android_pluginmgr/unspecified/jars/classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c1a0c30c0d2b08b1eebd6a33898da16a3651b281">
-        <dex dex="/Users/bang/AndroidStudioProjects/PlugLoadDemo/app/build/intermediates/pre-dexed/debug/classes-a245fd4c2152a836d13f10fe7a4655dfd7b64173.jar" />
     </item>
     <item
         jar="/Users/bang/AndroidStudioProjects/PlugLoadDemo/app/build/intermediates/exploded-aar/PlugLoadDemo/android_pluginmgr/unspecified/jars/libs/dexmaker-1.2.jar"

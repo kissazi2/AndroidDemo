@@ -77,7 +77,7 @@ class ActivityClassGenerator {
 	}
 
 	/**
-	 * 
+	 * 生成Activity的Dex文件
 	 * @param superClassName
 	 * @param targetClassName
 	 * @param pluginId

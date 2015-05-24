@@ -196,6 +196,7 @@ public class ActivityOverider {
 	}
 
 	static File createProxyDex(PlugInfo plugin, String activity, boolean lazy) {
+		//这里savePath = /data/data/androidx.plmgrdemo/app_plugins/app名称.apk-dir/activities/app包名.XXXXActivity.dex
 		File savePath = getPorxyActivityDexPath(plugin.getId(), activity);
 		createProxyDex(plugin, activity, savePath, lazy);
 		return savePath;
@@ -213,6 +214,7 @@ public class ActivityOverider {
 		// Log.d(tag, "actName=" + actName + ", saveDir=" + saveDir);
 		try {
 			String pkgName = plugin.getPackageName();
+			//这里是ProxyActivity继承插件中特定Activity的具体处理
 			ActivityClassGenerator.createActivityDex(activity, targetClassName,
 					saveDir, plugin.getId(), pkgName);
 		} catch (Throwable e) {

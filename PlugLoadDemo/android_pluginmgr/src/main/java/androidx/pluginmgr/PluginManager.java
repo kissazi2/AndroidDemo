@@ -36,7 +36,8 @@ import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * The Plug-in Manager
- * 
+ * 提供给外部初始化插件、启动Activity的插件管理类
+ *
  * @author HouKangxi
  */
 public class PluginManager implements FileFilter {
@@ -47,8 +48,12 @@ public class PluginManager implements FileFilter {
 	private final Map<String, PlugInfo> pluginIdToInfoMap = new ConcurrentHashMap<String, PlugInfo>();
 	private final Map<String, PlugInfo> pluginPkgToInfoMap = new ConcurrentHashMap<String, PlugInfo>();
 	private Context context;
+	/**
+	 * plugsout.创建一个用来放从插件apk的Activity继承的子Activity的Dex文件
+	 */
 	private String dexOutputPath;
 	private volatile boolean hasInit = false;
+	/** plugins.*/
 	private File dexInternalStoragePath;
 	private FrameworkClassLoader frameworkClassLoader;
 	private PluginActivityLifeCycleCallback pluginActivityLifeCycleCallback;
@@ -88,6 +93,7 @@ public class PluginManager implements FileFilter {
 
 	public boolean startMainActivity(Context context, String pkgOrId) {
 		Log.d(tag, "startMainActivity by:" + pkgOrId);
+		//1.根据包名或Apk命，获取plugInfo
 		PlugInfo plug = preparePlugForStartActivity(context, pkgOrId);
 		if (frameworkClassLoader == null) {
 			Log.e(tag, "startMainActivity: frameworkClassLoader == null!");
@@ -102,8 +108,12 @@ public class PluginManager implements FileFilter {
 					"startMainActivity: plug.getMainActivity().activityInfo == null!");
 			return false;
 		}
+		//2.这里很关键，三个参数分别是插件的包名、将要加载的插件Activity的名称，这是为了后面能正确地根据
+		//Activity或其他普通类是宿主的还是插件的，进行分别处理
 		String className = frameworkClassLoader.newActivityClassName(
 				plug.getId(), plug.getMainActivity().activityInfo.name);
+		//还记得之前贴的代码中(3.1中buildPlugInfo函数)，我们提到的application中的classLoader被替换
+		//成FrameworkClassloader
 		context.startActivity(new Intent().setComponent(new ComponentName(
 				context, className)));
 		return true;
@@ -160,6 +170,7 @@ public class PluginManager implements FileFilter {
 	private void init(Context ctx) {
 		Log.i(tag, "init()...");
 		context = ctx;
+		//plugsout后面会说到它的作用，这里先放过
 		File optimizedDexPath = ctx.getDir("plugsout", Context.MODE_PRIVATE);
 		if (!optimizedDexPath.exists()) {
 			optimizedDexPath.mkdirs();
@@ -167,8 +178,9 @@ public class PluginManager implements FileFilter {
 		dexOutputPath = optimizedDexPath.getAbsolutePath();
 		dexInternalStoragePath = context
 				.getDir("plugins", Context.MODE_PRIVATE);
+		//创建plugins用来存放插件apk，以及插件apk中的lib包
 		dexInternalStoragePath.mkdirs();
-		// change ClassLoader
+		// 改变classLoader，以便根据是插件apk、还是宿主apk中的类进行特殊处理
 		try {
 			Object mPackageInfo = ReflectionUtils.getFieldValue(ctx,
 					"mBase.mPackageInfo", true);
@@ -341,6 +353,14 @@ public class PluginManager implements FileFilter {
 		return plugInfo;
 	}
 
+	/**
+	 *
+	 * @param pluginApk 要加载的APK路径
+	 * @param pluginId 插件apk的名字(一般是xxx.apk),nullable
+	 * @param targetFileName 插件apk的名称，nullable
+	 * @return
+	 * @throws Exception
+	 */
 	private PlugInfo buildPlugInfo(File pluginApk, String pluginId,
 			String targetFileName) throws Exception {
 		PlugInfo info = new PlugInfo();
@@ -350,17 +370,19 @@ public class PluginManager implements FileFilter {
 				targetFileName == null ? pluginApk.getName() : targetFileName);
 
 		info.setFilePath(privateFile.getAbsolutePath());
-
+		//1.把插件apk复制到app_plugins目录下，防止因为意外情况被破坏
 		if (!pluginApk.getAbsolutePath().equals(privateFile.getAbsolutePath())) {
 			copyApkToPrivatePath(pluginApk, privateFile);
 		}
+		//2.读取AndroidManifest中的信息
 		String dexPath = privateFile.getAbsolutePath();
 		PluginManifestUtil.setManifestInfo(context, dexPath, info);
 
+		//3.设置插件加载器
 		PluginClassLoader loader = new PluginClassLoader(dexPath,
 				dexOutputPath, frameworkClassLoader, info);
 		info.setClassLoader(loader);
-
+		//4.重定向Resource对象的资源指向
 		try {
 			AssetManager am = (AssetManager) AssetManager.class.newInstance();
 			am.getClass().getMethod("addAssetPath", String.class)
@@ -373,6 +395,7 @@ public class PluginManager implements FileFilter {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
+		//5.初始化插件的application，调用它的onCreate()
 		if (actFrom != null) {
 			initPluginApplication(info, actFrom, true);
 		}

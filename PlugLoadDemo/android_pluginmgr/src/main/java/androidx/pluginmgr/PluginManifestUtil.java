@@ -39,16 +39,26 @@ import java.util.zip.ZipException;
 import java.util.zip.ZipFile;
 
 /**
+ * 插件Manifest信息提取类，除提取Manifest信息外，也包括提取插件apk中lib的类库）
  * @author HouKangxi
  * 
  */
 class PluginManifestUtil {
+
+	/**
+	 * 设置跟Manifest有关的信息
+	 * @param context MainActivity的实例
+	 * @param apkPath 插件apk的路径
+	 * @param info 设置了插件apk的Id、FilePath的PlugInfo
+	 * @throws XmlPullParserException
+	 * @throws IOException
+	 */
 	static void setManifestInfo(Context context, String apkPath, PlugInfo info)
 			throws XmlPullParserException, IOException {
-		
+		//1.读取压缩包里面的信息,将AndroidManifest的值读取出来
 		ZipFile zipFile = new ZipFile(new File(apkPath), ZipFile.OPEN_READ);
 		ZipEntry manifestXmlEntry = zipFile.getEntry(XmlManifestReader.DEFAULT_XML);
-		
+
 		String manifestXML = XmlManifestReader.getManifestXMLFromAPK(zipFile,
 				manifestXmlEntry);
 		PackageInfo pkgInfo = context.getPackageManager()
@@ -65,6 +75,7 @@ class PluginManifestUtil {
 		// Log.d("ManifestReader: setManifestInfo", "GET_SHARED_LIBRARY_FILES="
 		// + pkgInfo.applicationInfo.nativeLibraryDir);
 		info.setPackageInfo(pkgInfo);
+		//2.将插件apk中libs目录下的所有文件复制到app_plugins/插件Id-dir-lib目录下
 		File libdir = ActivityOverider.getPluginLibDir(info.getId());
 		try {
 			if(extractLibFile(zipFile, libdir)){
@@ -73,6 +84,7 @@ class PluginManifestUtil {
 		} finally {
 			zipFile.close();
 		}
+		//3.设置插件中activity、receiver、service、application等信息
 		setAttrs(info, manifestXML);
 	}
 	private static boolean extractLibFile(ZipFile zip, File tardir)
@@ -129,6 +141,14 @@ class PluginManifestUtil {
 		
 		return hasLib;
 	}
+
+	/**
+	 * 设置插件中activity、receiver、service、application等信息
+	 * @param info 插件信息
+	 * @param manifestXML 带有完整AndroidManifest信息的字符串
+	 * @throws XmlPullParserException
+	 * @throws IOException
+	 */
 	private static void setAttrs(PlugInfo info, String manifestXML)
 			throws XmlPullParserException, IOException {
 		XmlPullParserFactory factory = XmlPullParserFactory.newInstance();
